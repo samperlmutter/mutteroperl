@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eb7806ed509ce95a94720593ff0e211ff6e76dcbd5b6c5fa78436b6abb67e732
-size 381
+#title {
+	color: #ff0ff3;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    width: 50%;
+    height: 100%;
+    vertical-align: text-top
+}
+
+.video {
+    width: 640px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.video-desc {
+    font-size: 1.4em;
+    font-family: Times, "Times New Roman", "serif";
+    padding-top: 20px;
+}

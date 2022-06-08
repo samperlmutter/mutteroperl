@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cd2c0a2157f71c1cc4a1039283ffe0e9e84a5e3f181c1e578fc0797b28fc5e0d
-size 251
+#title {
+    color: #00c5ae;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.row {
+    flex: 50%;
+    padding: 0 4px;
+    text-align: center;
+}
+
+.row img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 300px;
+}

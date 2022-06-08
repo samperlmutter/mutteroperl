@@ -1,3 +1,92 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ce2d726a4756de688a43c35345ad3dba1d3403bab8c4a8d688c4668003ff5c2f
-size 1050
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+	font-family: "Reu_ben";
+	src: url("Reu_ben-Regular.ttf");
+}
+
+#header {
+	margin-bottom: 25px;
+	margin-top: 10px;
+	font-family: "Reu_ben";
+}
+
+body {
+	margin-right: 5px;
+}
+
+#title, #subtitle {
+	float: right;
+	font-size: 11vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+#subtitle {
+	font-size: 5vw;
+}
+
+#cube {
+	width: 11vw;
+	height: 11vw;
+}
+
+#water {
+	width: 50vw;
+	height: 25vw;
+}
+
+#spacenet {
+	float: right;
+	font-size: 3em;
+	font-family: 'Times New Roman', Times, serif
+}
+
+#navbar {
+	list-style: none;
+	font-size: 5em;
+	line-height: 90%;
+}
+
+li > a {
+	text-decoration: none;
+	font-family: "Reu_ben";
+}
+
+#new > a {
+	color: #8900d1;
+}
+
+#sound > a {
+	color: #0072ff;
+}
+
+#video > a {
+	color: #ff0ff3;
+}
+
+#words > a {
+    color: #19B800;
+}
+
+#squiggles > a {
+	color: #00c5ae;
+}
+
+#credit {
+	position: relative;
+}
+
+#credit>span>a {
+	text-decoration: none;
+}
+
+#credit>span {
+	font-size: 3vh;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: rgb(71, 71, 71);
+}
