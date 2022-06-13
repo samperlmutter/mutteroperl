@@ -1,0 +1,57 @@
+
+h1 {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.track-icon {
+    width: 30%;
+}
+
+.sample-icon {
+    width: 30%;
+}
+
+.prompt {
+    grid-column: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.product {
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.prompt>span {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    grid-column: 2;
+}
+
+.prompt-media {
+    justify-content: flex-start;
+}
+
+.product-media {
+    justify-content: flex-end;
+}
+
+video {
+    max-height: 300px;
+}
