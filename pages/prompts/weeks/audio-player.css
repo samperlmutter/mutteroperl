@@ -17,9 +17,6 @@
     display: inline-block !important;
 }
 
-body {
-    margin: 10px 0 0 0;
-}
 body .container {
     font-family: arial, helvetica, sans-serif;
     font-size: 1em;
