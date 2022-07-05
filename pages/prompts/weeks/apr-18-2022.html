@@ -13,6 +13,21 @@
         .grid {
             grid-template-columns: repeat(2, 1fr);
         }
+        #bubble {
+            max-height: 50px;
+            text-align: center;
+        }
+        #bubble>img {
+            position: relative;
+            top: -84px;
+            left: -30px;
+            width: 26%;
+        }
+        #art {
+            position: relative;
+            width: 13%;
+            left: 30px;
+        }
     </style>
 </head>
 <body>
@@ -20,7 +35,9 @@
     <a href="../../../index.html"><img id="cube" src="../../../images/green-cube.gif"></a>
     <a href="../prompts.html" id="title"><img src="../../../images/prompts-header.png"></a>
 </div>
-<h1>Apr 18 2022 – Music for an imaginary video game</h1>
+<div id="bubble">
+    <img src="../../../images/prompt-vg-bubble.png" alt="bubble" />
+</div>
 
 <div class="grid">
     <div class="prompt">
@@ -220,6 +237,8 @@
         </div>
     </div>
 </div>
+
+<img id="art" src="../../../images/prompt-vg-art.jpeg">
 
 </body>
 </html>
