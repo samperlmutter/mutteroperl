@@ -1,0 +1,13 @@
+ol {
+	font-size: 3.5em;
+	padding-left: 70px;
+}
+
+li>a {
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+}
+
+#title>img {
+	width: 22vw;
+}

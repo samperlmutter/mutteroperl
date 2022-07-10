@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../../styles.css" />
+    <link rel="stylesheet" href="../prompts.css" />
+    <link rel="stylesheet" href="prompt.css" />
+    <link rel="stylesheet" href="audio-player.css" />
+    <script src="audio-player.js" type="text/javascript"></script>
+    <title>Prompts</title>
+
+    <style>
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #bubble {
+            max-height: 50px;
+            text-align: center;
+        }
+        #bubble>img {
+            position: relative;
+            top: -84px;
+            left: -30px;
+            width: 26%;
+        }
+        #art {
+            position: relative;
+            width: 13%;
+            left: 30px;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <a href="../../../index.html"><img id="cube" src="../../../images/green-cube.gif"></a>
+    <a href="../prompts.html" id="title"><img src="../../../images/prompts-header.png"></a>
+</div>
+<div id="bubble">
+    <img src="../../../images/prompt-vg-bubble.png" alt="bubble" />
+</div>
+
+<div class="grid">
+    <div class="prompt">
+        <div class="container">
+
+            <audio id="reuben-audio" preload="none" tabindex="0">
+                <source src="../../../audio/reuben-vg-1%20-%20crackle.mp3" data-track-number="1" />
+                <source src="../../../audio/reuben-vg-2%20-%20a%20call.mp3" data-track-number="2" />
+                <source src="../../../audio/reuben-vg-3%20-%20do%20you%20accept.mp3" data-track-number="3" />
+                <source src="../../../audio/reuben-vg-4%20-%20computers%20only%20work%20underwater.mp3" data-track-number="4" />
+                <source src="../../../audio/reuben-vg-5%20-%20atoll.mp3" data-track-number="5" />
+                Your browser does not support HTML5 audio.
+            </audio>
+
+            <div class="player">
+
+                <div class="large-toggle-btn reuben-audio">
+                    <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i>
+                </div>
+                <!-- /.play-box -->
+
+                <div class="info-box">
+                    <div class="track-info-box reuben-audio">
+                        <div class="track-title-text"></div>
+                        <div class="audio-time">
+                            <span class="current-time">00:00</span> /
+                            <span class="duration">00:00</span>
+                        </div>
+                    </div>
+                    <!-- /.info-box -->
+
+                    <div class="progress-box reuben-audio">
+                        <div class="progress-cell">
+                            <div class="progress">
+                                <div class="progress-buffer"></div>
+                                <div class="progress-indicator"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.progress-box -->
+
+                <div class="controls-box">
+                    <i class="previous-track-btn reuben-audio disabled"><span class="screen-reader-text">Previous track button</span></i>
+                    <i class="next-track-btn reuben-audio"><span class="screen-reader-text">Next track button</span></i>
+                </div>
+                <!-- /.controls-box -->
+
+            </div>
+            <!-- /.player -->
+
+            <div class="play-list">
+
+                <div class="play-list-row reuben-audio" data-track-row="1">
+                    <div class="small-toggle-btn reuben-audio">
+                        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                    </div>
+                    <div class="track-number">
+                        1.
+                    </div>
+                    <div class="track-title">
+                        <a class="playlist-track" href="#" data-play-track="1">crackle</a>
+                    </div>
+                </div>
+                <div class="play-list-row reuben-audio" data-track-row="2">
+                    <div class="small-toggle-btn reuben-audio">
+                        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                    </div>
+                    <div class="track-number">
+                        2.
+                    </div>
+                    <div class="track-title">
+                        <a class="playlist-track" href="#" data-play-track="2">a call</a>
+                    </div>
+                </div>
+                <div class="play-list-row reuben-audio" data-track-row="3">
+                    <div class="small-toggle-btn reuben-audio">
+                        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                    </div>
+                    <div class="track-number">
+                        3.
+                    </div>
+                    <div class="track-title">
+                        <a class="playlist-track" href="#" data-play-track="3">do you accept</a>
+                    </div>
+                </div>
+                <div class="play-list-row reuben-audio" data-track-row="4">
+                    <div class="small-toggle-btn reuben-audio">
+                        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                    </div>
+                    <div class="track-number">
+                        4.
+                    </div>
+                    <div class="track-title">
+                        <a class="playlist-track" href="#" data-play-track="4">computers only work underwater</a>
+                    </div>
+                </div>
+                <div class="play-list-row reuben-audio" data-track-row="5">
+                    <div class="small-toggle-btn reuben-audio">
+                        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                    </div>
+                    <div class="track-number">
+                        5.
+                    </div>
+                    <div class="track-title">
+                        <a class="playlist-track" href="#" data-play-track="5">atoll</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="media">
+        <div class="container">
+
+            <audio id="sam-audio" preload="none" tabindex="0">
+                <source src="../../../audio/sam-vg-videogame-1.mp3" data-track-number="1" />
+                <source src="../../../audio/sam-vg-openingScene.mp3" data-track-number="2" />
+                <source src="../../../audio/sam-vg-Fight.mp3" data-track-number="3" />
+                Your browser does not support HTML5 audio.
+            </audio>
+
+            <div class="player">
+
+                <div class="large-toggle-btn sam-audio">
+                    <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i>
+                </div>
+                <!-- /.play-box -->
+
+                <div class="info-box">
+                    <div class="track-info-box sam-audio">
+                        <div class="track-title-text"></div>
+                        <div class="audio-time">
+                            <span class="current-time">00:00</span> /
+                            <span class="duration">00:00</span>
+                        </div>
+                    </div>
+                    <!-- /.info-box -->
+
+                    <div class="progress-box sam-audio">
+                        <div class="progress-cell">
+                            <div class="progress">
+                                <div class="progress-buffer"></div>
+                                <div class="progress-indicator"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.progress-box -->
+
+                <div class="controls-box">
+                    <i class="previous-track-btn sam-audio disabled"><span class="screen-reader-text">Previous track button</span></i>
+                    <i class="next-track-btn sam-audio"><span class="screen-reader-text">Next track button</span></i>
+                </div>
+                <!-- /.controls-box -->
+
+            </div>
+            <!-- /.player -->
+
+            <div class="play-list">
+
+                <div class="play-list-row sam-audio" data-track-row="1">
+                    <div class="small-toggle-btn sam-audio">
+                        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                    </div>
+                    <div class="track-number">
+                        1.
+                    </div>
+                    <div class="track-title">
+                        <a class="playlist-track" href="#" data-play-track="1">videogame 1</a>
+                    </div>
+                </div>
+                <div class="play-list-row sam-audio" data-track-row="2">
+                    <div class="small-toggle-btn sam-audio">
+                        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                    </div>
+                    <div class="track-number">
+                        2.
+                    </div>
+                    <div class="track-title">
+                        <a class="playlist-track" href="#" data-play-track="2">openingScene</a>
+                    </div>
+                </div>
+                <div class="play-list-row sam-audio" data-track-row="3">
+                    <div class="small-toggle-btn sam-audio">
+                        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                    </div>
+                    <div class="track-number">
+                        3.
+                    </div>
+                    <div class="track-title">
+                        <a class="playlist-track" href="#" data-play-track="3">Fight</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<img id="art" src="../../../images/prompt-vg-art.jpeg">
+
+</body>
+</html>
