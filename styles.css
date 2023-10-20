@@ -24,9 +24,7 @@
 	height: 25vw;
 }
 
-#navlist {
-	li > a {
-		text-decoration: none;
-		font-family: "Reu_ben";
-	}
+nav > ul > li > a {
+	text-decoration: none;
+	font-family: "Reu_ben";
 }
