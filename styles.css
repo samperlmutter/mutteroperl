@@ -5,27 +5,13 @@
 	src: url("Reu_ben-Regular.ttf");
 }
 
-#header {
-	margin-bottom: 25px;
-	margin-top: 10px;
-	font-family: "Reu_ben";
-}
-
-body {
-	margin-right: 5px;
-}
-
-#title, #subtitle {
+#title {
 	float: right;
 	font-size: 11vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-}
-
-#subtitle {
-	font-size: 5vw;
 }
 
 #cube {
@@ -38,55 +24,9 @@ body {
 	height: 25vw;
 }
 
-#spacenet {
-	float: right;
-	font-size: 3em;
-	font-family: 'Times New Roman', Times, serif
-}
-
-#navbar {
-	list-style: none;
-	font-size: 5em;
-	line-height: 90%;
-}
-
-li > a {
-	text-decoration: none;
-	font-family: "Reu_ben";
-}
-
-#prompts > a {
-	color: #000000;
-}
-
-#sound > a {
-	color: #0072ff;
-}
-
-#video > a {
-	color: #ff0ff3;
-}
-
-#words > a {
-    color: #19B800;
-}
-
-#squiggles > a {
-	color: #00c5ae;
-}
-
-#credit {
-	position: relative;
-}
-
-#credit>span>a {
-	text-decoration: none;
-}
-
-#credit>span {
-	font-size: 3vh;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	color: rgb(71, 71, 71);
+#navlist {
+	li > a {
+		text-decoration: none;
+		font-family: "Reu_ben";
+	}
 }
