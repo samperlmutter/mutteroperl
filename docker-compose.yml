@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  mutteroperl:
+    build: .
+    container_name: mutteroperl
+    restart: unless-stopped
+    networks:
+      - web
+    # No ports exposed since it will be handled by your reverse proxy
+
+networks:
+  web:
+    name: web
+    driver: bridge 
